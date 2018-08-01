@@ -13,13 +13,13 @@ ALIYUN-DDNS
 
 * 域名在阿里云解析
 
-* NodeJS
+* [Nodejs](https://nodejs.org/en/download/package-manager/ "Nodejs")
 
 * 部署机器有外网 IP
 
 ## 部署
 
-* 从阿里云获取 [AccessKey AccessKeySecret](https://ak-console.aliyun.com/#/accesskey)
+* 从阿里云获取 [AccessKeyID AccessKeySecret](https://ak-console.aliyun.com/#/accesskey)
 
 * 克隆本项目 `git clone https://github.com/luoye-fe/aliyun-ddns.git`
 
