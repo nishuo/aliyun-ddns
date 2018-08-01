@@ -30,14 +30,15 @@ ALIYUN-DDNS
 * 在 `config.json` 中填入相应字段
 
 * 运行 `npm run start`
-***  
 
+***  
 使用pm2后台运行
 
 ```shell
 npm -g install pm2  
 
 pm2 start index.js -name "aliddns"
+
 ```
 
 然后可用`pm2 logs`查看日志
