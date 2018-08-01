@@ -1,7 +1,7 @@
 ALIYUN-DDNS
 ===============
 
-借助阿里云解析的API实现二级 DDNS。
+借助nodejs连接阿里云解析的API实现二级 DDNS。
 
 ## 说明
 
