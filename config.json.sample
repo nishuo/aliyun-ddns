@@ -1,5 +1,5 @@
 {
-	"AccessKey": "AK",
-	"AccessKeySecret": "AS",
-	"Domain": "sub.example.com"
+	"AccessKeyID": "XXXXXX",
+	"AccessKeySecret": "XXXXXXXXX",
+	"Domain": "ddns.example.com"
 }
