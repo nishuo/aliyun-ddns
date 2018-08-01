@@ -30,10 +30,21 @@ ALIYUN-DDNS
 * 在 `config.json` 中填入相应字段
 
 * 运行 `npm run start`
+***  
+
+使用pm2后台运行
+
+```shell
+npm -g install pm2  
+
+pm2 start index.js -name "aliddns"
+```
+
+然后可用`pm2 logs`查看日志
 
 ## 其他
 
 * 服务进程使用 `pm2` 维护，如想开机启动自行配置
 
-* 每十五分钟更新一次，如需调整修改 `index.js` 中 `schedule`
+* 每十分钟更新一次，如需调整修改 `index.js` 中 `schedule`
 
