@@ -9,13 +9,10 @@ const uuidv1 = require('uuid/v1');
 
 const schedule = require('node-schedule');
 
-const { AccessKeyID, AccessKeySecret, Domain } = require('./config.json');
+const { AccessKey, AccessKeySecret, Domain } = require('./config.json');
 
 const HttpInstance = axios.create({
 	baseURL: 'https://alidns.aliyuncs.com/',
-    headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
-    }
 });
 
 main();
