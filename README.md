@@ -29,8 +29,6 @@ ALIYUN-DDNS
 
 * 在 `config.json` 中填入相应字段
 
-* 运行 `npm run start`
-
 ***  
 使用pm2后台运行
 
