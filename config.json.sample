@@ -1,5 +1,5 @@
 {
-	"AccessKeyID": "XXXXXX",
+	"AccessKey": "XXXXXX",
 	"AccessKeySecret": "XXXXXXXXX",
 	"Domain": "ddns.example.com"
 }
