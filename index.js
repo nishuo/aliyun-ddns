@@ -9,7 +9,7 @@ const uuidv1 = require('uuid/v1');
 
 const schedule = require('node-schedule');
 
-const { AccessKey, AccessKeySecret, Domain } = require('./config.json');
+const { AccessKeyID, AccessKeySecret, Domain } = require('./config.json');
 
 const HttpInstance = axios.create({
 	baseURL: 'https://alidns.aliyuncs.com/',
@@ -20,8 +20,8 @@ const HttpInstance = axios.create({
 
 main();
 
-// 每十五分钟更新一次
-schedule.scheduleJob('*/15 * * * *', function() {
+// 每十分钟更新一次
+schedule.scheduleJob('*/10 * * * *', function() {
 	main();
 });
 
