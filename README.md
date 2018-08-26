@@ -21,7 +21,7 @@ ALIYUN-DDNS
 
 * 从阿里云获取 [AccessKeyID AccessKeySecret](https://ak-console.aliyun.com/#/accesskey)
 
-* 克隆本项目 `git clone https://github.com/luoye-fe/aliyun-ddns.git`
+* 克隆本项目 `git clone https://github.com/nishuo/aliyun-ddns.git`
 
 * 安装依赖 `npm install`
 
