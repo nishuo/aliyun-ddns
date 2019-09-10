@@ -17,8 +17,8 @@ const HttpInstance = axios.create({
 
 main();
 
-// 每十分钟更新一次
-schedule.scheduleJob('*/10 * * * *', function() {
+// 每分钟更新一次
+schedule.scheduleJob('*/1 * * * *', function() {
 	main();
 });
 
@@ -101,7 +101,7 @@ function updateRecord(id, ip) {
 // 获取本机外网 ip 地址
 // 作者此前的接口已失效,更换了个国外的接口
 async function getExternalIP() {
-    const res = await axios.get('https://ipapi.co/ip/', {
+    const res = await axios.get('https://api.ip.sb/ip', {
     });
     return res.data.replace('\n', '');
 }
